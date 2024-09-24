@@ -4,9 +4,10 @@ title: Image Gallery
 ---
 
 <div class="section header-section">
+  <img src="{{ site.baseurl }}/images/mazda-logo.png" alt="Mazda Logo" class="mazda-logo">
   <h1>{{ page.title }}</h1>
   <p>View all images of the 2010 Mazda 3</p>
-  <a href="{{ site.baseurl }}/" class="view-more green-button">Back to Main Page</a>
+  <a href="{{ site.baseurl }}/" class="view-more">Back to Main Page</a>
 </div>
 
 <div class="section main-content gallery-page">

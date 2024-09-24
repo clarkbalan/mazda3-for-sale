@@ -3,8 +3,19 @@ layout: default
 ---
 
 <div class="section header-section">
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
+  <img src="{{ site.baseurl }}/images/mazda-logo.png" alt="Mazda Logo" class="mazda-logo">
+  <h1 class="main-title">2010 Mazda 3 <span class="subtitle">A Premium Driving Experience</span></h1>
+  
+  <div class="car-highlights">
+    <p><span class="highlight">Excellent Condition</span> | <span class="highlight">195K Miles</span> | <span class="highlight">2.5 S Model</span></p>
+    <p class="no-issues">✓ No Mechanical Issues</p>
+  </div>
+
+  <div class="price-drop">
+    <p class="original-price">Original Price: <span>$6,200</span></p>
+    <p class="new-price">New Price: <span>$5,600</span></p>
+    <p class="savings">Save 10% - That's $600 off!</p>
+  </div>
 </div>
 
 <div class="section main-content">
