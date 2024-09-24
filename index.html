@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2010 Mazda 3 For Sale</title>
-    <link rel="stylesheet" href="/assets/css/style.scss">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <header>
@@ -12,19 +12,11 @@
         <p>This 2010 Mazda 3 2.5 S is in excellent condition, with 195K miles and no mechanical issues. Asking price: $5000.</p>
     </header>
 
-    <section>
-        <h2>Car Features</h2>
-        <ul>
-            <li>Well-maintained with new components</li>
-            <li>Paint in excellent condition</li>
-            <li>No mechanical problems</li>
-            <li>Recently serviced</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Car Photos</h2>
-        <div class="gallery">
+    <!-- Flex container for layout -->
+    <div class="flex-container">
+        <!-- Car Photos -->
+        <section class="gallery">
+            <h2>Car Photos</h2>
             <a href="images/mazda-3-2010 - 1.jpeg" target="_blank">
                 <img src="images/mazda-3-2010 - 1.jpeg" alt="Mazda 3 Front" />
             </a>
@@ -37,26 +29,19 @@
             <a href="images/mazda-3-2010 - 4.jpeg" target="_blank">
                 <img src="images/mazda-3-2010 - 4.jpeg" alt="Mazda 3 Interior" />
             </a>
-            <a href="images/mazda-3-2010 - 5.jpeg" target="_blank">
-                <img src="images/mazda-3-2010 - 5.jpeg" alt="Mazda 3 Dashboard" />
-            </a>
-            <a href="images/mazda-3-2010 - 6.jpeg" target="_blank">
-                <img src="images/mazda-3-2010 - 6.jpeg" alt="Mazda 3 Engine" />
-            </a>
-            <a href="images/mazda-3-2010 - 7.jpeg" target="_blank">
-                <img src="images/mazda-3-2010 - 7.jpeg" alt="Mazda 3 Wheel" />
-            </a>
-            <a href="images/mazda-3-2010 - 8.jpeg" target="_blank">
-                <img src="images/mazda-3-2010 - 8.jpeg" alt="Mazda 3 Trunk" />
-            </a>
-            <a href="images/mazda-3-2010 - 9.jpeg" target="_blank">
-                <img src="images/mazda-3-2010 - 9.jpeg" alt="Mazda 3 Rear seats" />
-            </a>
-            <a href="images/mazda-3-2010 - 10.jpeg" target="_blank">
-                <img src="images/mazda-3-2010 - 10.jpeg" alt="Mazda 3 Front seats" />
-            </a>
-        </div>
-    </section>
+        </section>
+
+        <!-- Car Features -->
+        <section class="car-features">
+            <h2>Car Features</h2>
+            <ul>
+                <li>Well-maintained with new components</li>
+                <li>Paint in excellent condition</li>
+                <li>No mechanical problems</li>
+                <li>Recently serviced</li>
+            </ul>
+        </section>
+    </div>
 
     <footer>
         <p>Contact me for more details or scan the QR code to visit this page again!</p>

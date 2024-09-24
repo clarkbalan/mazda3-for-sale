@@ -7,8 +7,11 @@ body {
     background-color: #f4f4f9;
     font-family: 'Arial', sans-serif;
     color: #333;
+    margin: 0;
+    padding: 20px;
 }
 
+/* Main Layout */
 header {
     text-align: center;
     margin-bottom: 20px;
@@ -16,18 +19,44 @@ header {
 
 h1 {
     color: #d35400;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
-.gallery {
+p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    max-width: 100%;
+    line-height: 1.5rem;
+}
+
+/* Flex container for photos and features */
+.flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Car Features */
+.car-features {
+    flex: 1 1 300px; /* Allows it to shrink to a minimum of 300px */
+    max-width: 400px;
+    order: 2; /* Puts the features below the gallery on small screens */
+}
+
+/* Car Photos */
+.gallery {
+    flex: 2 1 600px; /* Takes up twice the space on larger screens */
+    order: 1; /* Puts the gallery above the features on small screens */
 }
 
 .gallery img {
     width: 100%;
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -38,7 +67,28 @@ h1 {
     transform: scale(1.05);
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .car-features, .gallery {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
 }

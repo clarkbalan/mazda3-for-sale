@@ -1,0 +1,19 @@
+summarize.sh
+
+summary.txt
+
+# OS-generated files
+.DS_Store
+
+# Jekyll output directories
+_site/
+
+# Ruby/Bundler
+.bundle/
+vendor/
+Gemfile.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
