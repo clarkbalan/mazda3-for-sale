@@ -89,7 +89,7 @@ function showSlides(n) {
 
 <!-- Contact Info Box -->
 <div class="contact-info-box">
-  <p>For inquiries, you can reach me:</p>
+  <p>For inquiries, you can reach Clark:</p>
   <ul>
     <li><strong>Phone Calls:</strong> 5 PM - 10 PM at <a href="tel:+13852460055">385-246-0055</a></li>
     <li><strong>Text:</strong> Anytime at <a href="sms:+13852460055">385-246-0055</a></li>
