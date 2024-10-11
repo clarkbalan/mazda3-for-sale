@@ -22,7 +22,7 @@ body {
 
 /* Header Section */
 .header-section {
-    background-color: #1a3668;
+    background-color: #b0c4de; /* Light steel blue background for a softer look */
     color: white;
     text-align: center;
     padding: 40px 20px;
@@ -39,7 +39,8 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #d4af37; /* Soft gold for the main title */
 }
 
 .subtitle {
@@ -47,24 +48,30 @@ body {
     font-size: 1.2rem;
     font-weight: 300;
     margin-top: 10px;
-    color: #ffd700;
+    color: #ffd700; /* Keep subtitle in golden/yellow */
 }
 
 .car-highlights {
     margin: 20px 0;
     font-size: 1.2rem;
+    color: #f0f0f0; /* Light gray or blue background */
 }
 
 .highlight {
     font-weight: bold;
-    color: #ffd700;
+    background-color: #dbe3e9; /* Subtle light blue or gray */
+    color: #333; /* Dark gray for the text */
+    padding: 5px 10px;
+    border-radius: 5px;
 }
+
 
 .no-issues {
     color: #4CAF50;
     font-weight: bold;
     margin-top: 10px;
 }
+
 
 .price-drop {
     background-color: #e74c3c;
