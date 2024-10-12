@@ -26,6 +26,12 @@ layout: default
     <p class="new-price">New Price: <span>$5,600</span></p>
     <p class="savings">Save 10% - That's $600 off!</p>
   </div>
+  
+  <!-- Link to Car Purchase Process -->
+  <div class="purchase-process-section">
+    <p>Want to know more about the process of buying this car? Click below to learn about the steps involved, test drive agreements, and more:</p>
+    <a href="{{ site.baseurl }}/car-purchase-process" class="purchase-process-btn">Car Purchase Process</a>
+  </div>
 </div>
 
 <div class="section main-content">
@@ -84,25 +90,25 @@ layout: default
     </ul>
   </div>
 
-  <!-- Bottom Contact Info Box -->
-  <div class="price-drop">
-    <p class="original-price">Original Price: <span>$6,200</span></p>
-    <p class="new-price">New Price: <span>$5,600</span></p>
-    <p class="savings">Save 10% - That's $600 off!</p>
-  </div>
+<!-- Bottom Contact Info Box -->
+<div class="price-drop">
+  <p class="original-price">Original Price: <span>$6,200</span></p>
+  <p class="new-price">New Price: <span>$5,600</span></p>
+  <p class="savings">Save 10% - That's $600 off!</p>
+</div>
 
-  <div class="contact-info-box">
-    <p>For inquiries, you can reach Clark:</p>
-    <ul>
-      <li><strong>Phone Calls:</strong> 5 PM - 10 PM at <a href="tel:+13852460055">385-246-0055</a></li>
-      <li><strong>Text:</strong> Anytime at <a href="sms:+13852460055">385-246-0055</a></li>
-      <li><strong>Email:</strong> <a href="mailto:mazda3forsale@sudomail.com">mazda3forsale@sudomail.com</a></li>
-    </ul>
-  </div>
+<div class="contact-info-box">
+  <p>For inquiries, you can reach Clark:</p>
+  <ul>
+    <li><strong>Phone Calls:</strong> 5 PM - 10 PM at <a href="tel:+13852460055">385-246-0055</a></li>
+    <li><strong>Text:</strong> Anytime at <a href="sms:+13852460055">385-246-0055</a></li>
+    <li><strong>Email:</strong> <a href="mailto:mazda3forsale@sudomail.com">mazda3forsale@sudomail.com</a></li>
+  </ul>
+</div>
 
-  <div class="section footer-section">
-    <p>Contact Clark for more details or to schedule a viewing!</p>
-  </div>
+<div class="section footer-section">
+  <p>Contact Clark for more details or to schedule a viewing!</p>
+</div>
 
 <style>
 /* Green contact info box style */
@@ -136,5 +142,24 @@ layout: default
     display: inline-block;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Purchase Process Button Style */
+.purchase-process-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.purchase-process-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.purchase-process-btn:hover {
+    background-color: #3E8E41;
 }
 </style>
